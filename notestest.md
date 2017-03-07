@@ -77,12 +77,20 @@ git pull origin master  #pulling the new changes that are made on github to put 
 git log #to see new commit with chanhes on local repository
 ```
 
-### 7.Forking a Repository  
+### 7.Forks, Clones and Branches  
 1. fork repository (only used within the context of github)
 2. clone (this is done on your local to another spot on your computer)
 3. create branch (this is done on your local)
 4. pull down the branch to your local 
-5. make changes on your branch and push that to the branch
+5. make changes on your branch and push that to your fork
+
+### 8. Viewing an old Submission 
+- if you have started a crazy experiment, but you are not sure if you want to keep it or not, you can look at the state of a project before you had started the project. 
+```
+git log --oneline #shows you the id's of the revisions 
+git checkout <id number> 
+```
+*see (https://www.atlassian.com/git/tutorials/undoing-changes) for details
 
 
 Markdown 
